@@ -1,0 +1,136 @@
+@font-face {
+  font-family: 'NotoSansCJKkr-Regular_0';
+  font-style: normal;
+  font-weight: normal;
+  src: url(font/NotoSansCJKkr-Regular_0.eot);
+  src: url(font/NotoSansCJKkr-Regular_0.eot?#iefix) format("embedded-opentype"), url(../font/NotoSansCJKkr-Regular_0.woff) format("woff"), url(../font/NotoSansCJKkr-Regular_0.ttf) format("opentype"); }
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font-family: 'NotoSansCJKkr-Regular_0'; }
+
+img {
+  border: 0; }
+
+a {
+  text-decoration: none;
+  color: #000; }
+
+.hidden {
+  display: none; }
+
+button {
+  background: none;
+  border: 0;
+  cursor: pointer; }
+
+/* header */
+#header {
+  border-bottom: 2px solid #8ca2a4;
+  background: #fff;
+  text-align: center;
+  padding: 12px 0; }
+
+#footer {
+  background: #8ca2a4;
+  text-align: center;
+  padding: 16px 0;
+  margin-top: 80px; }
+  #footer p {
+    color: #fff; }
+
+@media (max-width: 1210px) {
+  #header .header_inner {
+    width: 98%;
+    margin: 0 1%; } }
+body {
+  background: whitesmoke; }
+
+.filter-form {
+  width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 24px 0; }
+
+.page-main {
+  width: 1200px;
+  margin: 0 auto;
+  overflow: hidden; }
+
+.gallery {
+  margin: 0;
+  padding: 0; }
+
+.gallery-item {
+  list-style: none;
+  margin-top: 10px; }
+  .gallery-item a {
+    display: block;
+    overflow: hidden;
+    position: relative; }
+
+.gallery-item-is-loading {
+  opacity: 0; }
+
+/*.load-more{ text-align:center; width:90%; margin:0 5%; background:$main_color; color:#fefefe; padding:8px 0; font-size:16px; font-weight:bold;
+        &:hover{ opacity: 0.5; }
+}*/
+nav {
+  position: fixed;
+  right: 0;
+  background: rgba(140, 162, 164, 0.8);
+  width: 60%;
+  height: 100%;
+  margin-right: -60%;
+  z-index: 30; }
+
+.gnb {
+  padding: 40px 60px;
+  margin: 40px 0; }
+  .gnb li {
+    margin: 20px 0;
+    padding: 8px 16px; }
+    .gnb li:hover {
+      background: #b2e0d0;
+      cursor: pointer; }
+      .gnb li:hover a {
+        color: #555; }
+    .gnb li a {
+      color: #fff;
+      font-size: 20px; }
+
+.exit {
+  font-size: 28px;
+  color: #fff;
+  position: absolute;
+  top: 0;
+  right: 3%; }
+  .exit:hover {
+    opacity: 0.5; }
+
+.board {
+  padding: 40px 0;
+  width: 80%;
+  margin: 0 10%;
+  border: 0;
+  height: 1600px; }
+
+.ad {
+  text-align: center;
+  margin-top: 40px;
+  padding: 0 10%; }
+
+@media (max-width: 1210px) {
+  .filter-form {
+    width: 98%;
+    margin: 0 1%; }
+
+  .page-main {
+    width: 100%; }
+
+  .gallery {
+    width: 52%;
+    margin: 0 18%; } }
+
+/*# sourceMappingURL=main.css.map */
