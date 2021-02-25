@@ -3,8 +3,7 @@ img { vertical-align: middle; }
 .clearfix:after { clear: both; }
 
 .gallery-item .caption {
-    background-color: rgb(140, 159, 161);
-    background-color: rgba(140, 159, 161, 0.8);
+    background-color: #2166e6d0;
     color: rgb(255, 255, 255);
     padding: 10px;
     text-align: center;
@@ -45,6 +44,7 @@ img { vertical-align: middle; }
 /* 필터 */
 
 .filter-form label {
+    color:#fff;
     cursor: pointer;
     display: inline-block;
     font-weight: bold;
@@ -72,12 +72,11 @@ img { vertical-align: middle; }
 
 /* 추가 버튼 */
 .load-more {
-    background-color: #8ca2a4; color:#fefefe; font-weight:bold;
-    border: 1px solid rgb(230, 230, 230);
+    background-color: #2166e6; color:#fefefe; font-weight:bold;
     display: block;
     padding: 1em 0;
     width: 100%;
-    margin-top: 10px;
+    margin-top: 20px;
 }
 
 

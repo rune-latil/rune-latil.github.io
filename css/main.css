@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
 @font-face {
   font-family: 'NotoSansCJKkr-Regular_0';
   font-style: normal;
@@ -27,13 +28,17 @@ button {
 
 /* header */
 #header {
-  border-bottom: 2px solid #8ca2a4;
-  background: #fff;
+  background: #2166e6;
   text-align: center;
-  padding: 12px 0; }
+  padding: 6px 0; }
+
+h1 a {
+  color: #fff;
+  font-family: 'Pacifico', cursive;
+  font-size: 36px; }
 
 #footer {
-  background: #8ca2a4;
+  background: #2166e6;
   text-align: center;
   padding: 16px 0;
   margin-top: 80px; }
@@ -45,7 +50,10 @@ button {
     width: 98%;
     margin: 0 1%; } }
 body {
-  background: whitesmoke; }
+  background: #26282e; }
+
+::selection {
+  background: aquamarine; }
 
 .filter-form {
   width: 1200px;
@@ -76,39 +84,6 @@ body {
 /*.load-more{ text-align:center; width:90%; margin:0 5%; background:$main_color; color:#fefefe; padding:8px 0; font-size:16px; font-weight:bold;
         &:hover{ opacity: 0.5; }
 }*/
-nav {
-  position: fixed;
-  right: 0;
-  background: rgba(140, 162, 164, 0.8);
-  width: 60%;
-  height: 100%;
-  margin-right: -60%;
-  z-index: 30; }
-
-.gnb {
-  padding: 40px 60px;
-  margin: 40px 0; }
-  .gnb li {
-    margin: 20px 0;
-    padding: 8px 16px; }
-    .gnb li:hover {
-      background: #b2e0d0;
-      cursor: pointer; }
-      .gnb li:hover a {
-        color: #555; }
-    .gnb li a {
-      color: #fff;
-      font-size: 20px; }
-
-.exit {
-  font-size: 28px;
-  color: #fff;
-  position: absolute;
-  top: 0;
-  right: 3%; }
-  .exit:hover {
-    opacity: 0.5; }
-
 .board {
   padding: 40px 0;
   width: 80%;
